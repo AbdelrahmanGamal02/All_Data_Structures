@@ -47,7 +47,14 @@ Implementation of Data Structures With C programming
 - Delete_List
 - Delete_The_Middle
 ### Queue Impelementation (Functions)
-
+- Create Queue
+- Enqueue In Queue
+- Dequeue From Queue
+- Number On Queue Front
+- Number On Queue Rear
+- Number Of Elements In Queue
+- Destroy Queue Created
+- Display Queue 
 
 
 
