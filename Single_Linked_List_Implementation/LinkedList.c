@@ -472,6 +472,24 @@ void Reverse_The_List (Node_Type **Head_List)
     *Head_List = Pre_Node_Ptr;
 }
 
+sint32 Search_on_Linked_List (Node_Type *Head_List , uint32 Number_To_Search)
+{
+    uint32 position_number = 1;
+    Node_Type *Temp_Ptr = Head_List;
+    while(Temp_Ptr->Data != Number_To_Search && Temp_Ptr != NULL)
+    {
+        Temp_Ptr = Temp_Ptr->Next_Node;
+        position_number++;
+    }
+
+    if(NULL == Temp_Ptr)
+    {
+        return -1;
+    }
+    else{
+        return position_number;
+    }
+}
 
 
 
