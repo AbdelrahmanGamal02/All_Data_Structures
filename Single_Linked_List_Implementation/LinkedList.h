@@ -179,5 +179,15 @@ void Delete_List (Node_Type **Head_List);
 
 uint32 Delete_The_Middle (Node_Type *Head_List);
 
+/**
+    * @brief search for number on Linked List
+    * @param (Head_List) pointer point on the First Node oF Linked List
+    *        Single Pointer Because We Wouldn't Change Contain of Head (Pass By Value)
+    * @param (Number_To_Search) Number will Search for On Linked List
+    * @retval position of number on Linked List
+  */
+
+sint32 Search_on_Linked_List (Node_Type *Head_List , uint32 Number_To_Search);
+
 
 #endif // _LINKED_LIST_H
