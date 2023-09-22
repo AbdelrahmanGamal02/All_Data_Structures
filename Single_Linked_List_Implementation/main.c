@@ -58,6 +58,17 @@ int main()
     /* Sort the linked list*/
     Sort_The_Nodes_Ascending(Linked_List_1);
     Display_Nodes(Linked_List_1);
+    /* Search about a number on the linked list */
+    Postion_Number = Search_on_Linked_List(Linked_List_1, 44);
+    if(-1 == Postion_Number)
+    {
+        printf("Number Not Founded\n");
+
+    }else
+    {
+        printf("Position Of number founded is %i \n",Postion_Number);
+    }
+ 
     /* Delete the linked list */
     Delete_List(&Linked_List_1);
     number_of_Nodes = Get_Length(Linked_List_1);printf("Number Of Nodes Is => %i\n",number_of_Nodes);
