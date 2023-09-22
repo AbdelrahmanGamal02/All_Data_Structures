@@ -31,6 +31,7 @@ Implementation of Data Structures With C programming
 - The_Middle_Of_List
 - Delete_List
 - Delete_The_Middle
+- Search number on Linked List
 ### Double Linked List Impelementation (Functions)
 - Insert_Node_At_Begining
 - Insert_Node_At_End
